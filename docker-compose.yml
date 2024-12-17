@@ -1,6 +1,7 @@
 
 services:
 
+
   mariadb:
     image: "mariadb:latest"
     restart: 'always'
@@ -13,6 +14,7 @@ services:
       MYSQL_DATABASE: "heticdb"
       MYSQL_USER: "hetic"
       MYSQL_PASSWORD: "hetic"
+
 
   phpmyadmin:
     image: phpmyadmin
